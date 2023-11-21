@@ -160,7 +160,7 @@ a:hover {
 
 .course-box {
   width: 100%;
-  padding: 10px;
+  padding: 20px 10px;
   margin-top: 10px;
   background: #182842;
   border-radius: 10px;
@@ -194,9 +194,14 @@ td {
   color: #fff;
   font-weight: 500;
 }
+.course table,
+th,
+td:active {
+  background: #184842;
+}
 th,
 td {
-  padding: 5px;
+  padding: 8px;
   text-align: left;
 }
 .course table,
