@@ -1,7 +1,16 @@
-import logo from './logo.svg';
+import logo from './photos/logo.svg';
 import './App.css';
 
 function App() {
+
+  // TODO
+  // Massage: convert index html (design prototype) and add here
+  // Massage: copy all photos in photos folder like logo in this file
+
+  // Feature 1: Create nav bar functionailty, better to have separate file for navbar but here in app.js also ok
+  // Feature 2: Create stats widgets Section 
+  // Feature 3: Create table section
+
   return (
     <div className="App">
       <header className="App-header">
