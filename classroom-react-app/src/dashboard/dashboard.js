@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import "../App.css";
 
 function ClassRoomDashboard() {
@@ -6,6 +6,25 @@ function ClassRoomDashboard() {
     // Add logic to handle creating a room
     console.log("Test Creating room...");
   };
+  const [tableData, setTableData] = useState([
+    {
+      roomName: "dkyuast",
+      state: "ended",
+      startTime: "Nov-21-2022 5:58",
+      endTime: "Nov-21-2022 7:58",
+      duration: "2",
+      action: "view",
+    },
+    {
+      roomName: "dkyuast",
+      state: "ended",
+      startTime: "Nov-21-2022 5:58",
+      endTime: "Nov-21-2022 7:58",
+      duration: "2",
+      action: "view",
+    },
+    // Add more data as needed
+  ]);
 
   return (
     <section className="main">
@@ -48,26 +67,18 @@ function ClassRoomDashboard() {
               </tr>
             </thead>
             <tbody>
-              <tr>
-                <td>
-                  <a href="url">dkyuast</a>
-                </td>
-                <td>ended</td>
-                <td>Nov-21-2022 5:58</td>
-                <td>Nov-21-2022 7:58</td>
-                <td>2</td>
-                <td>view</td>
-              </tr>
-              <tr>
-                <td>
-                  <a href="url">dkyuast</a>
-                </td>
-                <td>ended</td>
-                <td>Nov-21-2022 5:58</td>
-                <td>Nov-21-2022 7:58</td>
-                <td>2</td>
-                <td>view</td>
-              </tr>
+              {tableData.map((row, index) => (
+                <tr key={index}>
+                  <td>
+                    <a href="url">{row.roomName}</a>
+                  </td>
+                  <td>{row.state}</td>
+                  <td>{row.startTime}</td>
+                  <td>{row.endTime}</td>
+                  <td>{row.duration}</td>
+                  <td>{row.action}</td>
+                </tr>
+              ))}
             </tbody>
           </table>
         </div>
