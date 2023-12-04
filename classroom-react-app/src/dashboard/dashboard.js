@@ -23,6 +23,30 @@ function ClassRoomDashboard() {
       duration: "2",
       action: "view",
     },
+    {
+      roomName: "dkyuast",
+      state: "ended",
+      startTime: "Nov-21-2022 5:58",
+      endTime: "Nov-21-2022 7:58",
+      duration: "2",
+      action: "view",
+    },
+    {
+      roomName: "dkyuast",
+      state: "ended",
+      startTime: "Nov-21-2022 5:58",
+      endTime: "Nov-21-2022 7:58",
+      duration: "2",
+      action: "view",
+    },
+    {
+      roomName: "dkyuast",
+      state: "ended",
+      startTime: "Nov-21-2022 5:58",
+      endTime: "Nov-21-2022 7:58",
+      duration: "2",
+      action: "view",
+    },
     // Add more data as needed
   ]);
 
