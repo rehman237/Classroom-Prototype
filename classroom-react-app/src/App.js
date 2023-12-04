@@ -1,18 +1,15 @@
 import React from "react";
 import "./App.css";
+import "./classroom/classroom.css";
 
 import ClassRoomNavBar from "./navbar/navbar";
 import ClassRoomDashboard from "./dashboard/dashboard";
+import ClassRoom from "./classroom/classroom";
 
 function App() {
-
-
-
   return (
-
     <div className="container">
-      <ClassRoomNavBar></ClassRoomNavBar>
-      <ClassRoomDashboard></ClassRoomDashboard>
+      <ClassRoom></ClassRoom>
     </div>
   );
 }
