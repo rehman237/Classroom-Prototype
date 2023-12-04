@@ -43,13 +43,14 @@ nav {
   font-size: 18px;
   text-transform: uppercase;
 }
-a .fa-icon {
+a {
   position: relative;
   color: white;
-  font-size: 14px;
+  font-size: 17px;
   display: table;
   width: 280px;
-  padding: 10px;
+  padding: 15px;
+  margin-left: 21px;
 }
 
 nav a .fa {
@@ -64,7 +65,7 @@ nav a .fa {
 .nav-item {
   /*position: relative;
   top: 12px;*/
-  margin-left: 10px;
+  margin-left: 25px;
   color: #fff;
 }
 a:hover {
@@ -138,7 +139,7 @@ a:hover {
   color: #fff;
 }
 
-/*Courses*/
+/* Courses */
 .main-course {
   margin-top: 20px;
   text-transform: capitalize;
@@ -192,275 +193,4 @@ td {
 th,
 td a {
   color: #fff;
-}
-.box {
-  width: 100%;
-  padding: 30px;
-  margin: 10px;
-  border-radius: 10px;
-  background: transparent;
-  box-shadow: rgba(0, 0, 0, 0.1);
-  border: 1px solid #184842;
-}
-.box p {
-  font-size: 12px;
-  margin-top: 5px;
-}
-.box button {
-  background: orangered;
-  color: #fff;
-  padding: 7px 10px;
-  border-radius: 10px;
-  margin-top: 3rem;
-  cursor: pointer;
-}
-
-/* import google fonts*/
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
-
-* {
-  margin: 0;
-  padding: 0;
-  outline: none;
-  border: none;
-  text-decoration: none;
-  box-sizing: border-box;
-  font-family: "Poppins", sans-serif;
-}
-body {
-  background: #00122e;
-}
-.container {
-  display: flex;
-}
-
-nav {
-  position: relative;
-  top: 0;
-  bottom: 0;
-  height: 100vh;
-  left: 0;
-  background: #184842;
-  width: 280px;
-  overflow: hidden;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-}
-
-.logo {
-  text-align: center;
-  display: flex;
-  margin: 10px 0 0 10px;
-}
-.logo img {
-  width: 45px;
-  height: 45px;
-  border-radius: 50%;
-}
-.logo span {
-  font-weight: bold;
-  padding-left: 15px;
-  font-size: 18px;
-  text-transform: uppercase;
-}
-a {
-  position: relative;
-  color: white;
-  font-size: 14px;
-  display: table;
-  width: 280px;
-  padding: 10px;
-}
-
-nav .fas {
-  position: relative;
-  width: 70px;
-  height: 40px;
-  top: 14px;
-  font-size: 20px;
-  text-align: center;
-  color: #fff;
-}
-.nav-item {
-  /*position: relative;
-  top: 12px;*/
-  margin-left: 10px;
-  color: #fff;
-}
-a:hover {
-  background: #00122e;
-}
-
-.logout {
-  position: absolute;
-  bottom: 0;
-}
-
-/* Main Section */
-.main {
-  position: relative;
-  padding: 20px;
-  width: 100%;
-}
-.main-top {
-  display: flex;
-  width: 100%;
-  color: #fff;
-}
-.main-top i {
-  position: absolute;
-  right: 0;
-  margin: 10px 30px;
-  color: #fff;
-  cursor: pointer;
-}
-.main-skills {
-  display: flex;
-  margin-top: 20px;
-}
-
-.main-skills .card {
-  width: 25%;
-  margin: 10px;
-  background: #fff;
-  text-align: center;
-  border: 1px solid #184842;
-  border-radius: 20px;
-  padding: 10px;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-  background: #182842;
-}
-
-.main-skills .card h3 {
-  margin: 10px;
-  text-transform: capitalize;
-  color: #fff;
-}
-.main-skills .card p {
-  font-size: 12px;
-  color: #fff;
-}
-
-.main-skills .card button {
-  background: orangered;
-  color: #fff;
-  padding: 7px 15px;
-  border-radius: 10px;
-  margin-top: 15px;
-  cursor: pointer;
-}
-.main-skills .card button:hover {
-  background: rgba(223, 7, 15, 0.856);
-}
-.main-skills .card i {
-  font-size: 22px;
-  padding: 10px;
-  color: #fff;
-}
-
-/*Courses*/
-.main-course {
-  margin-top: 20px;
-  text-transform: capitalize;
-  color: #fff;
-}
-.main-course button {
-  background: orangered;
-  color: #fff;
-  padding: 7px 15px;
-  border-radius: 10px;
-  margin-top: 10%;
-  cursor: pointer;
-}
-.main-course button:hover {
-  background: rgba(223, 7, 15, 0.856);
-}
-
-.course-box {
-  width: 100%;
-  padding: 20px 10px;
-  margin-top: 10px;
-  background: #182842;
-  border-radius: 10px;
-  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.1);
-}
-
-/* .course-box ul {
-  list-style: none;
-  display: flex;
-} */
-
-/* .course-box ul li {
-  margin: 10px;
-  color: #fff;
-  cursor: pointer;
-} */
-
-.course-box ul .active {
-  color: #fff;
-  border-bottom: 1px solid #fff;
-}
-
-/* .course-box .course {
-  display: flex;
-} */
-.course table,
-th,
-td {
-  border: none;
-  border-collapse: collapse;
-  color: #fff;
-  font-weight: 500;
-}
-.course table,
-th,
-td:active {
-  background: #184842;
-}
-th,
-td {
-  padding: 8px;
-  text-align: left;
-}
-.course table,
-th,
-td a {
-  color: #fff;
-}
-.box {
-  width: 100%;
-  padding: 30px;
-  margin: 10px;
-  border-radius: 10px;
-  background: transparent;
-  box-shadow: rgba(0, 0, 0, 0.1);
-  border: 1px solid #184842;
-}
-.box p {
-  font-size: 12px;
-  margin-top: 5px;
-}
-.box button {
-  background: orangered;
-  color: #fff;
-  padding: 7px 10px;
-  border-radius: 10px;
-  margin-top: 3rem;
-  cursor: pointer;
-}
-.box button:hover {
-  background: rgba(223, 7, 15, 0.856);
-}
-.box i {
-  font-size: 7rem;
-  float: right;
-  margin: -20px 20px 20px 0;
-}
-.html {
-  color: rgb(25, 94, 54);
-}
-.css {
-  color: rgb(104, 179, 35);
-}
-.js {
-  color: rgb(28, 98, 179);
 }

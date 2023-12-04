@@ -4,7 +4,7 @@ import "../App.css";
 function ClassRoomDashboard() {
   const handleCreateRoom = () => {
     // Add logic to handle creating a room
-    console.log('Creating room...');
+    console.log("Test Creating room...");
   };
 
   return (
@@ -23,9 +23,7 @@ function ClassRoomDashboard() {
           <p style={{ fontSize: "50px" }}>0</p>
         </div>
         <div className="card">
-          <h3 style={{ marginTop: "30px", fontWeight: 400 }}>
-            Audio minutes
-          </h3>
+          <h3 style={{ marginTop: "30px", fontWeight: 400 }}>Audio minutes</h3>
           <p style={{ fontSize: "50px" }}>0</p>
         </div>
         <div className="card">
@@ -36,9 +34,7 @@ function ClassRoomDashboard() {
         </div>
       </div>
       <section className="main-course">
-        <button onClick={handleCreateRoom}>
-          Create room
-        </button>
+        <button onClick={handleCreateRoom}>Create room</button>
         <div className="course-box">
           <table style={{ width: "100%" }}>
             <thead>

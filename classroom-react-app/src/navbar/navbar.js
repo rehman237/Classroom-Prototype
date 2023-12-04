@@ -14,12 +14,38 @@ import {
 import logo from "../photos/lorem.jpg";
 
 function ClassRoomNavBar() {
-
   const handleLogout = () => {
     // Perform logout logic here, such as clearing user session, redirecting, etc.
-    console.log('Logging out...');
+    console.log("Test Logging out...");
   };
-
+  const handleHome = () => {
+    // Perform logout logic here, such as clearing user session, redirecting, etc.
+    console.log("Test Home...");
+  };
+  const handleProfile = () => {
+    // Perform logout logic here, such as clearing user session, redirecting, etc.
+    console.log("Test Profile...");
+  };
+  const handleRooms = () => {
+    // Perform logout logic here, such as clearing user session, redirecting, etc.
+    console.log("Test Rooms...");
+  };
+  const handleStream = () => {
+    // Perform logout logic here, such as clearing user session, redirecting, etc.
+    console.log("Test Stream...");
+  };
+  const handleTask = () => {
+    // Perform logout logic here, such as clearing user session, redirecting, etc.
+    console.log("Test Task...");
+  };
+  const handleSetting = () => {
+    // Perform logout logic here, such as clearing user session, redirecting, etc.
+    console.log("Test Setting...");
+  };
+  const handleHelp = () => {
+    // Perform logout logic here, such as clearing user session, redirecting, etc.
+    console.log("Test Help...");
+  };
   return (
     <nav>
       <ul>
@@ -31,43 +57,43 @@ function ClassRoomNavBar() {
         </li>
 
         <li>
-          <a href="">
+          <a href="#" onClick={handleHome}>
             <FontAwesomeIcon icon={faHome} />
             <span className="nav-item">Dashboard</span>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="#" onClick={handleProfile}>
             <FontAwesomeIcon icon={faUser} />
             <span className="nav-item">Profile</span>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="#" onClick={handleRooms}>
             <FontAwesomeIcon icon={faWallet} />
             <span className="nav-item">Rooms</span>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="#" onClick={handleStream}>
             <FontAwesomeIcon icon={faStream} />
             <span className="nav-item">Live Streaming</span>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="#" onClick={handleTask}>
             <FontAwesomeIcon icon={faTasks} />
             <span className="nav-item">Tasks</span>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="#" onClick={handleSetting}>
             <FontAwesomeIcon icon={faCog} />
             <span className="nav-item">Settings</span>
           </a>
         </li>
         <li>
-          <a href="">
+          <a href="#" onClick={handleHelp}>
             <FontAwesomeIcon icon={faQuestionCircle} />
             <span className="nav-item">Help</span>
           </a>
